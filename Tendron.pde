@@ -19,7 +19,7 @@ public void draw()
 public void mousePressed()
 {
   redraw();
-  firstColor = (int)(Math.random() * 101) + 110;
-  secondColor = (int)(Math.random() * 101) + 110;
-  thirdColor = (int)(Math.random() * 101) + 110;
+  firstColor = (int)(Math.random() * 256);
+  secondColor = (int)(Math.random() * 256);
+  thirdColor = (int)(Math.random() * 256);
 }
