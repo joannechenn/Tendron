@@ -41,23 +41,23 @@ class Tendril
         stroke(firstColor, secondColor, thirdColor);
       }
         
-      else if(myNumSegments <= 12.5){
+      else if(myNumSegments <= 20){
         strokeWeight(1);
         stroke(secondColor, thirdColor, firstColor);   
       }
         
-      else if(myNumSegments <= 25){
-        strokeWeight(2);
+      else if(myNumSegments <= 40){
+        strokeWeight(3);
         stroke(thirdColor, firstColor, secondColor);
       }
       
-      else if(myNumSegments <= 37.5){
-        strokeWeight(2);
+      else if(myNumSegments <= 60){
+        strokeWeight(3);
         stroke(secondColor, firstColor, thirdColor);
       }
       
-      else if(myNumSegments == 50){
-        strokeWeight(3);
+      else if(myNumSegments == 80){
+        strokeWeight(5);
         stroke(firstColor, thirdColor, secondColor);
       }
       
