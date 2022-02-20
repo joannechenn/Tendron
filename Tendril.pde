@@ -43,8 +43,7 @@ class Tendril
         
       else if(myNumSegments <= 12.5){
         strokeWeight(1);
-        stroke(secondColor, thirdColor, firstColor);
-        
+        stroke(secondColor, thirdColor, firstColor);   
       }
         
       else if(myNumSegments <= 25){
@@ -54,12 +53,12 @@ class Tendril
       
       else if(myNumSegments <= 37.5){
         strokeWeight(2);
-        stroke(firstColor, thirdColor, secondColor);
+        stroke(secondColor, firstColor, thirdColor);
       }
       
       else if(myNumSegments == 50){
         strokeWeight(3);
-        stroke(thirdColor, secondColor, firstColor);
+        stroke(firstColor, thirdColor, secondColor);
       }
       
       line(startX, startY, endX, endY);
